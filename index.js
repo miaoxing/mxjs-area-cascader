@@ -84,7 +84,7 @@ class Index extends React.Component {
       </this.props.component>'
      '<this.props.component label="区域" name={this.props.areaName} required={this.props.required}>
         <Options data={this.state.areas} valueKey="label"/>
-      </this.props.component>'   '</>
+      </this.props.component>'   '</>;
   }
 }
 
