@@ -74,17 +74,21 @@ class Index extends React.Component {
   }
 
   render() {
-    return <>'     '<this.props.component label="省份" name={this.props.provinceName} required={this.props.required}
+    return <>
+      <this.props.component label="省份" name={this.props.provinceName} required={this.props.required}
         onChange={this.handleChangeProvince}>
         <Options data={this.state.provinces} valueKey="label"/>
-      </this.props.component>'
-     '<this.props.component label="城市" name={this.props.cityName} required={this.props.required}
+      </this.props.component>
+
+      <this.props.component label="城市" name={this.props.cityName} required={this.props.required}
         onChange={this.handleChangeCity}>
         <Options data={this.state.cities} valueKey="label"/>
-      </this.props.component>'
-     '<this.props.component label="区域" name={this.props.areaName} required={this.props.required}>
+      </this.props.component>
+
+      <this.props.component label="区域" name={this.props.areaName} required={this.props.required}>
         <Options data={this.state.areas} valueKey="label"/>
-      </this.props.component>'   '</>;
+      </this.props.component>
+    </>;
   }
 }
 
