@@ -2,7 +2,7 @@ import React from 'react';
 import FormItem from 'components/FormItem';
 import Options from 'components/Options';
 import {connect, getIn} from 'formik';
-import http from '@mxjs/http';
+import api from '@mxjs/api';
 
 class Index extends React.Component {
   static defaultProps = {
@@ -70,7 +70,7 @@ class Index extends React.Component {
   }
 
   get(value = '') {
-    return http.get('areas', {params: {parentId: value}});
+    return api.get('areas', {params: {parentId: value}});
   }
 
   render() {
