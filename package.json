@@ -6,5 +6,15 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@miaoxing/dev": "^6.4.0"
+  },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
+  "ciDependencies": {
+    "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev"
   }
 }
