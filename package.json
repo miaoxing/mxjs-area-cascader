@@ -7,6 +7,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "jest": {
+    "preset": "jest-preset-miaoxing"
+  },
   "dependencies": {
     "react": "^16.13.1",
     "@mxjs/api": "^0.1.1",
@@ -14,13 +17,13 @@
     "@mxjs/form": "^0.2.8"
   },
   "devDependencies": {
-    "@miaoxing/dev": "^6.4.0"
-  },
-  "jest": {
-    "preset": "jest-preset-miaoxing"
+    "@miaoxing/dev": "^6.4.0",
+    "@testing-library/react": "^11.2.6"
   },
   "ciDependencies": {
     "babel-preset-miaoxing": "miaoxing/babel-preset-miaoxing",
-    "@miaoxing/dev": "miaoxing/dev"
+    "jest-preset-miaoxing": "miaoxing/jest-preset-miaoxing",
+    "@miaoxing/dev": "miaoxing/dev",
+    "@mxjs/form": "miaoxing/mxjs-form"
   }
 }

@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test basic 1`] = `
+<div>
+  <div
+    class="form-group row"
+  >
+    <label
+      class="text-sm-right  form-label col-form-label col-sm-2"
+      for="province"
+    >
+      <span
+        class="text-warning"
+      >
+        * 
+      </span>
+      省份
+    </label>
+    <div
+      class="col-sm-4"
+    >
+      <select
+        class="form-control"
+        id="province"
+        name="province"
+        required=""
+      >
+        <option
+          value=""
+        >
+          请选择
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    class="form-group row"
+  >
+    <label
+      class="text-sm-right  form-label col-form-label col-sm-2"
+      for="city"
+    >
+      <span
+        class="text-warning"
+      >
+        * 
+      </span>
+      城市
+    </label>
+    <div
+      class="col-sm-4"
+    >
+      <select
+        class="form-control"
+        id="city"
+        name="city"
+        required=""
+      >
+        <option
+          value=""
+        >
+          请选择
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    class="form-group row"
+  >
+    <label
+      class="text-sm-right  form-label col-form-label col-sm-2"
+      for="area"
+    >
+      <span
+        class="text-warning"
+      >
+        * 
+      </span>
+      区域
+    </label>
+    <div
+      class="col-sm-4"
+    >
+      <select
+        class="form-control"
+        id="area"
+        name="area"
+        required=""
+      >
+        <option
+          value=""
+        >
+          请选择
+        </option>
+      </select>
+    </div>
+  </div>
+</div>
+`;
