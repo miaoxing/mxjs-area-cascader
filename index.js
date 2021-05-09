@@ -1,8 +1,8 @@
 import React from 'react';
-import FormItem from 'components/FormItem';
-import Options from 'components/Options';
+import {FormItem, Options} from '@mxjs/form';
 import {connect, getIn} from 'formik';
 import api from '@mxjs/api';
+import PropTypes from 'prop-types';
 
 class Index extends React.Component {
   static defaultProps = {
@@ -11,6 +11,15 @@ class Index extends React.Component {
     areaName: 'area',
     required: true,
     component: FormItem,
+  };
+
+  static propTypes = {
+    formik: PropTypes.object,
+    provinceName: PropTypes.string,
+    cityName: PropTypes.string,
+    areaName: PropTypes.string,
+    required: PropTypes.bool,
+    component: PropTypes.elementType,
   };
 
   state = {

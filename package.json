@@ -7,6 +7,12 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "dependencies": {
+    "react": "^16.13.1",
+    "@mxjs/api": "^0.1.1",
+    "formik": "^1.5.8",
+    "@mxjs/form": "^0.2.8"
+  },
   "devDependencies": {
     "@miaoxing/dev": "^6.4.0"
   },
