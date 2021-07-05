@@ -1,10 +1,10 @@
-import React from 'react';
+import { Component } from 'react';
 import {FormItem, Options} from '@mxjs/form';
 import {connect, getIn} from 'formik';
 import api from '@mxjs/api';
 import PropTypes from 'prop-types';
 
-class Index extends React.Component {
+class Index extends Component {
   static defaultProps = {
     provinceName: 'province',
     cityName: 'city',
