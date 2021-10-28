@@ -1,3 +1,25 @@
+# [0.2.0](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.1.3...v0.2.0) (2021-10-28)
+
+
+### Features
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17 ([e2eb54a](https://github.com/miaoxing/mxjs-area-cascader/commit/e2eb54a3030b813e6733a1740f33204a0e33b1e2))
+
+
+### BREAKING CHANGES
+
+* `react` 依赖移到 `peerDependencies` 中，开发依赖使用 `react` 17
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/api:** upgrade from `0.1.3` to `0.1.4`
+* **@mxjs/form:** upgrade from `0.2.10` to `0.3.0`
+* **@miaoxing/dev:** upgrade from `7.0.1` to `8.0.0`
+
 ## [0.1.3](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.1.2...v0.1.3) (2021-05-12)
 
 
