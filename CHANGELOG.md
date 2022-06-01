@@ -1,3 +1,15 @@
+## [0.2.5](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.4...v0.2.5) (2022-06-01)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/api:** upgrade from `0.1.8` to `0.1.9`
+* **@mxjs/form:** upgrade from `0.3.4` to `0.3.5`
+* **@miaoxing/dev:** upgrade from `8.1.0` to `8.1.1`
+
 ## [0.2.4](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.3...v0.2.4) (2022-03-31)
 
 
