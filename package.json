@@ -1,6 +1,6 @@
 {
   "name": "@mxjs/area-cascader",
-  "version": "0.2.16",
+  "version": "0.2.17",
   "main": "index.js",
   "license": "MIT",
   "publishConfig": {
@@ -13,7 +13,7 @@
   "dependencies": {
     "@mxjs/api": "^1.0.3",
     "formik": "^1.5.8",
-    "@mxjs/form": "^0.3.16"
+    "@mxjs/form": "^0.3.17"
   },
   "devDependencies": {
     "@miaoxing/dev": "^8.2.0",
