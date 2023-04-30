@@ -1,3 +1,13 @@
+## [0.2.18](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.17...v0.2.18) (2023-04-30)
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/form:** upgrade from `0.3.17` to `0.3.18`
+
 ## [0.2.17](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.16...v0.2.17) (2023-04-18)
 
 
