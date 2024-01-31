@@ -1,3 +1,18 @@
+## [0.2.27](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.26...v0.2.27) (2024-01-31)
+
+
+### Features
+
+* 更新 `react` 支持 18 ([f5abaaa](https://github.com/miaoxing/mxjs-area-cascader/commit/f5abaaa11c4ec5578e499620247042a3ab9a90c7))
+
+
+
+
+
+### Dependencies
+
+* **@mxjs/form:** upgrade from `0.3.26` to `0.3.27`
+
 ## [0.2.26](https://github.com/miaoxing/mxjs-area-cascader/compare/v0.2.25...v0.2.26) (2024-01-08)
 
 
